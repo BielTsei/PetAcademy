@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pet Academy</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>
+        <img
+          src="/assets/logo.png"
+          id="logo-coleira"
+          alt="Coleira de cachorro com um osso pendurado"
+        />
+        Pet Academy
+      </h1>
+      <nav id="nav">
+        <button id="btn-mobile"><span id="hamburguer"></span></button>
+        <ul id="menu">
+          <a href="/home-index.html"
+            ><li>
+              Home
+              <span id="line"></span></li
+          ></a>
+          <a href="/servicos-index.html"
+            ><li>
+              Serviços
+              <span id="line"></span></li
+          ></a>
+          <a href="/clientes-index.html"
+            ><li>
+              Clientes
+              <span id="line"></span></li
+          ></a>
+          <a href="/dicas-index.html"
+            ><li>
+              Dicas
+              <span id="line"></span></li
+          ></a>
+          <div id="container-social">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="/assets/instagram.png" class="img-redesocial" alt="" />
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="/assets/youtube.png" class="img-redesocial" alt="" />
+            </a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <section id="container-home">
+      <div id="titulo">
+        <h1>Seu melhor amigo na academia de campeões</h1>
+        <img src="/assets/medalha.png" alt="" />
+      </div>
+    </section>
+
+    <section id="container-quemsomos">
+      <div id="container-infos-quemsomos">
+        <span class="thick-line"></span>
+        <h4 class="title-quemsomos">Quem sou?</h4>
+        <p class="paragrapf-quemsomos">
+          Olá, amantes de animais! Eu sou o Gabriel Tsei, fundador e
+          adestrador-chefe da Pet Academy. Se você está em busca de soluções
+          para tornar a convivência com seu peludo mais harmoniosa e feliz, você
+          está no lugar certo!
+        </p>
+        <h4 class="title-quemsomos">Quem somos?</h4>
+        <p class="paragrapf-quemsomos">
+          A Pet Academy nasceu do meu amor incondicional pelos animais e da
+          minha paixão por ajudar tutores a entenderem e se conectarem melhor
+          com seus bichinhos de estimação. Aqui, acreditamos que todo pet merece
+          uma vida plena, saudável e cheia de alegria. Por isso, oferecemos uma
+          gama completa de serviços para atender às necessidades de cada peludo
+          e de sua família.
+        </p>
+        <span class="thin-line"></span>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="img-card" src="/assets/dog-servicos.png" alt="" />
+            <p class="title-card">Conheça nossos</p>
+            <a href="servicos-index.html"
+              ><button class="btn-card">Serviços</button></a
+            >
+          </div>
+          <div class="swiper-slide">
+            <img class="img-card" src="/assets/dog-clientes.png" alt="" />
+            <p class="title-card">Conheça nossos</p>
+            <a href="clientes-index.html"
+              ><button class="btn-card">Clientes</button></a
+            >
+          </div>
+          <div class="swiper-slide">
+            <img class="img-card" src="/assets/dog-dicas.png" alt="" />
+            <p class="title-card">Conheça nossas</p>
+            <a href="dicas-index.html"
+              ><button class="btn-card">Dicas</button></a
+            >
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <footer>
+      <div id="container-footer">
+        <div class="container-contato">
+          <img class="img-contato" src="/assets/whatsapp.png" alt="" />
+          <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
+            <p>11 98765-4321</p></a
+          >
+        </div>
+        <div class="container-contato">
+          <img class="img-contato" src="/assets/instagram2.png" alt="" />
+
+          <a href="https://www.instagram.com/" target="_blank"
+            ><p>@pet.academy</p></a
+          >
+        </div>
+      </div>
+      <p id="slogan">Na Pet Academy, cada latido e ronronado importa.</p>
+      <span class="thin-line2"></span>
+      <div id="creditos">
+        <p>Gabriel Tsei | 2022 | Projeto fictício</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="app.js"></script>
+    <script src="script-menu.js"></script>
+  </body>
+</html>

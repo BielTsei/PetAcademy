@@ -1,0 +1,1 @@
+const btnMobile=document.getElementById("btn-mobile");function toggleMenu(){const e=document.getElementById("nav");e.classList.toggle("active")}btnMobile.addEventListener("click",toggleMenu);
